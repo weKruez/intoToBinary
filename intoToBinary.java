@@ -31,6 +31,10 @@ public class intoToBinary {
             binary = new String [] {"1", "0", "0", "0", "0", "0", "0", "0"};
         }
         
+        if(a == 1){
+            binary = new String [] {"0", "0", "0", "0", "0", "0", "0", "1"};
+        }
+        
         if(a < 4 && a >= 1){
             binary = new String [] {"0", "0", "0", "0", "0", "0", "1", "1"};
         }
